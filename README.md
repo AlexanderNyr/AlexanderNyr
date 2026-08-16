@@ -4,7 +4,7 @@
 
 An x86_64 operating system. A physics engine. A multiplayer FPS with no game engine. Minecraft shaders in raw GLSL. A falling-sand sim with a nuclear-physics layer. A small LLM. I pick the language that fits the problem — **C, C++, Rust, Kotlin, GLSL, Python, C#** — and I avoid black boxes: if a subsystem is interesting, I'd rather write it myself than import it.
 
-This shows up in my own **[AuraLite](#-the-auralite-ecosystem)** projects *and* in open source, where I'm just as happy translating docs or chasing a Unicode bug in someone else's repo.
+This shows up in my own **AuraLite** projects *and* in open source, where I'm just as happy translating docs or chasing a Unicode bug in someone else's repo. Several of these ship **versioned releases** — 25 on the shader pack, 11 on the FPS, plus the OS.
 
 ---
 
@@ -21,7 +21,7 @@ This shows up in my own **[AuraLite](#-the-auralite-ecosystem)** projects *and* 
 | 🎮 | [AuraLite-FPS-Game](https://github.com/AlexanderNyr/AuraLite-FPS-Game) | **LAN FPS** — no engine. Authoritative server + Android client, hand-written OpenGL ES 3.2, UDP snapshots | `Kotlin` |
 | 🌌 | [AuraLite-Shaders](https://github.com/AlexanderNyr/AuraLite-Shaders) | Minecraft shaders on OpenGL 4.6: true TAA (Halton + YCoCg), HDR bloom, godrays, SSR, SSAO | `GLSL` |
 | ☢️ | [AuraLite-Powder](https://github.com/AlexanderNyr/AuraLite-Powder) | Powder-Toy-style sim **with nuclear physics** — fission (U-235/Pu-239), fusion (D+T), chain reactions & meltdowns; desktop + WebAssembly | `Rust` |
-| 🩸 | [AuraLite-Horror-Game](https://github.com/AlexanderNyr/AuraLite-Horror-Game) | **AnxietyHorror** — first-person psychological horror, fully procedural world/audio, PBR renderer; Win/Linux/Android | `C++` · `SDL2` |
+| 🩸 | [AuraLite-Horror-Game](https://github.com/AlexanderNyr/AuraLite-Horror-Game) | **AnxietyHorror** — first-person psychological horror, fully procedural world/audio, PBR renderer (C++ desktop, Java/Android) | `C++` · `Java` |
 | 🗺 | [AuraLite-world-generator](https://github.com/AlexanderNyr/AuraLite-world-generator) | procedural rural-world generator: FBM terrain + hydraulic erosion, villages, A* roads, rivers, biomes | `C#` · `Unity 6` |
 | 🧠 | [AuraLite-AI](https://github.com/AlexanderNyr/AuraLite-AI) | educational LLM in PyTorch: RoPE/GQA/KV-cache, quantization (GPTQ/AWQ/HQQ/FP8), RAG, OpenAI-compatible FastAPI server | `Python` |
 | 🛠 | [AuraLite-Realistic-Crafting](https://github.com/AlexanderNyr/AuraLite-Realistic-Crafting) | 1,258 reworked Minecraft recipes — shipped as datapack + Fabric + Forge | `Python` |
